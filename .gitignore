@@ -1,0 +1,12 @@
+cat <<EOF > .gitignore
+__pycache__/
+*.pyc
+.venv/
+uv.lock
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+EOF
